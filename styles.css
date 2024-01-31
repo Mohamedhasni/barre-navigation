@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #0056ff, rgba(0, 0, 0, 0.153));
+
+
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  top:0;
+  width: 100%;
+  transition: 3ms;
+  position: fixed;
+  display: flex;
+  justify-content:center;
+  padding-right: 20px;
+
+
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  transition: 3ms;
+  padding: 10px;
+  
+
+  
+}
+
+.Formu {
+  margin: 8px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.086);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  justify-content: center;
+  margin-left: 30px;
+margin: auto;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3px;
+  margin: auto;
+}
+
+a::before {
+  background-color: antiquewhite;
+}
+
+a:hover {
+  background-color: aqua;
+}
+
+button:hover{
+
+background-color: blue;}
+
+input::after{
+background-color:rgba(0, 255, 183, 0.107)}
+
+
+
+button:active{
+
+  background-color:green;}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #111;
+  padding-top: 20px;
+  top:0;
+  position: fixed;
+  padding: 20px;
+  display:inline;
+  justify-content:center;
+  left:0;
+  
+
+  
+  
+}
+
